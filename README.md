@@ -124,13 +124,13 @@ Usage Instructions
 -   Clone the repository:
 
     ```
-    git clone https://github.com/<your-username>/semiconductor-dashboard.git
+    git clone https://github.com/Hosseinglm/Semiconductor-Insights.git
     ```
 
 -   Navigate to the project directory:
 
     ```
-    cd semiconductor-dashboard
+    cd semiconductor-Insights
     ```
 
 -   Install required dependencies:
@@ -150,7 +150,7 @@ Usage Instructions
 -   Open your browser and go to:
 
     ```
-    http://127.0.0.1:5000
+    http://localhost:5000
     ```
 
 ### 3\. **Interact with the Dashboard**
@@ -174,33 +174,34 @@ Sample datasets are provided in the `data/` folder:
 
 * * * * *
 
-Technologies Used
------------------
-
--   **Backend**: Flask
-
--   **Frontend**: Dash/Plotly
-
--   **Data Processing**: Pandas, NumPy
-
--   **Machine Learning**: Scikit-learn
-
--   **Visualization**: Plotly
-
-* * * * *
-
 Future Enhancements
 -------------------
 
 -   Integration with real-time data streams.
 
--   Advanced model interpretability using SHAP.
+-   Advanced ML models.
 
--   Support for additional file formats (e.g., Excel).
+-   Support for additional file formats.
 
 -   Improved UI/UX design.
 
 * * * * *
+
+🖥️ Screenshots
+---------------
+
+### **Dashboard Overview**
+![Dashboard Overview](./screenshots/1.png)
+### **Time Series Analysis - Overall Trends**
+![Time Series Analysis - Overall Trends](./screenshots/2.png) 
+### **Time Series Analysis - Individual Trends Based on Machines**
+![Time Series Analysis - Individual Trends Based on Machines](./screenshots/3.png)
+### **Performance Analysis**
+![Performance Analysis](./screenshots/4.png)
+### **Machine Learning Models - Yield Prediction**
+![Machine Learning Models - Yield Prediction](./screenshots/5.png) 
+### **Machine Learning Models - Defect Classification**
+![Machine Learning Models - Defect Classification](./screenshots/6.png)
 
 License
 -------
